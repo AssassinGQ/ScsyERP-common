@@ -23,11 +23,11 @@ public abstract class FormEntity extends BaseEntity {
     }
 
     @JSONField(name = "ifCompleted")
-    public String getIfCompletedNum(){
+    public Integer getIfCompletedNum(){
         if(IfCompleted)
-            return "0";
+            return 0;
         else
-            return "1";
+            return 1;
     }
 
     @JSONField(name = "ifCompleted")
