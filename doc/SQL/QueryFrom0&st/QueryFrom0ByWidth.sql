@@ -1,0 +1,1 @@
+select * from t_index0 where width = 1999999;

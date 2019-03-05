@@ -1,0 +1,1 @@
+select * from t_indexid where username = 'username_188' or _password = 'password_18888';

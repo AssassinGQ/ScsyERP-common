@@ -1,0 +1,1 @@
+select * from t_indexun where username > 'username_188' and username < 'username_18888';

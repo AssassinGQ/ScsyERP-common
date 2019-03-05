@@ -1,0 +1,1 @@
+select * from t_indexst where status = 1;
