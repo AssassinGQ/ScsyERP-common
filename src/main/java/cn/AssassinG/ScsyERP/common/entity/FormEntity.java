@@ -9,7 +9,7 @@ public abstract class FormEntity extends BaseEntity {
 
     public FormEntity() {
         super();
-        this.IfCompleted = false;
+//        this.IfCompleted = false;
     }
 
     @JSONField(serialize = false)
